@@ -1,0 +1,107 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .panda {
+  position: relative;
+  border: solid black 6px;
+  border-radius: 50%;
+  height: 180px;
+  width: 250px;
+  background-color: #fff;
+}
+.container .panda .ojos .ojo {
+  border-radius: 64% 36% 79% 25%/74% 24% 75% 28%;
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.container .panda .ojos .ojo:nth-child(2) {
+  left: auto;
+  right: 10%;
+  transform: rotate(270deg);
+}
+.container .panda .ojos .ojo .pupila {
+  position: absolute;
+  background-color: white;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  left: 60%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+.container .panda .ojos .ojo .pupila:nth-child(2) {
+  transform: rotate(180deg);
+}
+.container .panda .ojos .ojo .pupila2 {
+  position: absolute;
+  background-color: white;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  left: 40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .panda .orejas .oreja {
+  z-index: -100;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: black;
+  top: -20px;
+  position: absolute;
+  transform: translate(0, 0px);
+  transform: rotate(-10deg);
+}
+.container .panda .orejas .oreja:nth-child(2) {
+  right: 0;
+}
+.container .panda .nariz {
+  border-radius: 50% 50% 50% 50%/30% 30% 70% 70%;
+  height: 20px;
+  width: 30px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .panda .boca .linea {
+  width: 3px;
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .panda .boca .labio {
+  width: 30px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 50%;
+  border-bottom: black solid 5px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .panda .boca .lengua {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50% 50% 50% 50%/0% 0% 100% 100%;
+  position: absolute;
+  top: 65.2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: rotate(-14deg);
+}/*# sourceMappingURL=style.css.map */
