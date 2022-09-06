@@ -6,7 +6,7 @@ drawn with css
 
 ## Preview
 
-[Screenshot](https://i.imgur.com/T9nuaHY.png)
+[Screenshot](https://imgur.com/a/tEinNVw)
 
 
 ## Authors

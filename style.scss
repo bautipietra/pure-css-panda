@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    filter: drop-shadow(0 0 5px);
     .panda {
         position: relative;
         border: solid black 6px;
